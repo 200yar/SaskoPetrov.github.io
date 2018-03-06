@@ -226,9 +226,9 @@
           <type>poly</type>
           <id>Poly01</id>
           <title>nadvor</title>
-          <linktype>url</linktype>
+          <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
-          <url>http://paulbourke.net/miscellaneous/cubemaps/cube.jpg</url>
+          <url>{node7}</url>
           <target>_top</target>
         </hotspot>
       </hotspots>
@@ -996,6 +996,54 @@
       <streetviewproject/>
       <sounds/>
       <id>node6</id>
+    </panorama>
+    <panorama>
+      <input>
+        <patch/>
+        <type>auto</type>
+        <filename>cube.jpg</filename>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan/>
+        <tilt/>
+        <fov/>
+        <flyinstart/>
+        <pannorth>0</pannorth>
+      </viewingparameter>
+      <userdata>
+        <datetime>8/17/2014 6:47 PM</datetime>
+        <tags>sliki</tags>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>79.87</pan>
+            <tilt>1.38</tilt>
+          </position>
+          <next>
+            <pan>99.5</pan>
+            <tilt>-12.5</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <title>muzejo</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node1}</url>
+          <target>99.5/-12.5/70.0</target>
+          <autoplace>0</autoplace>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node7</id>
     </panorama>
   </tour>
   <panorama>
