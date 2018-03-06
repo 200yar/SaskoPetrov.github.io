@@ -1,36 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="15983" appversion="5.2.2" start="node2">
-  <panorama id="node2">
-    <input leveltilesize="510" levelbiashidpi="0.400" levelingpitch="0" width="1704" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" height="1704" levelingroll="0" levelbias="0.400">
-      <level preload="0" width="1704" predecode="0" height="1704"/>
-      <level preload="0" width="852" predecode="0" height="852"/>
-      <level preload="1" width="426" predecode="1" height="426"/>
-      <preview strip="1" color="0x808080"/>
-    </input>
-    <view fovmode="0" pannorth="124.184">
-      <start tilt="0" pan="0" fov="70" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-34.8727" pan="-180" fov="5"/>
-      <max fovfisheye="360" tilt="34.8727" pan="180" fov="120" fovstereographic="270"/>
-    </view>
-    <userdata copyright="" longitude="4.893581" tags="sliki" description="" info="" title="" datetime="11/26/2017 2:40 PM" comment="" source="" latitude="52.367286" author="" customnodeid=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label borderradius="1" wordwrap="1" border="1" background="1" borderalpha="1" width="180" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" enabled="1" height="20" textalpha="1" backgroundalpha="1"/>
-      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
-      <hotspot url="{node1}" description="" id="Point01" tilt="0" pan="-16.5685" title="" skinid="ht_node" target="$fwd"/>
-      <hotspot url="{node3}" description="" id="Point02" tilt="0" pan="-0.418504" title="" skinid="ht_node" target="$fwd"/>
-      <hotspot url="{node4}" description="" id="Point03" tilt="0" pan="-0.416934" title="" skinid="ht_node" target="$fwd"/>
-      <hotspot url="{node5}" description="" id="Point04" tilt="0" pan="298.014" title="" skinid="ht_node" target="$fwd"/>
-      <hotspot url="{node6}" description="" id="Point05" tilt="0" pan="298.014" title="" skinid="ht_node" target="$fwd"/>
-      <hotspot url="{node1}" description="" id="Point06" tilt="12.73" pan="21.08" title="muzejj" skinid="ht_node" target="-34.2/-7.3/70.0"/>
-    </hotspots>
-    <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomin="2" type="crossdissolve" zoomspeed="2" zoomout="4" blendcolor="0x000000" blendtime="1" enabled="1" softedge="0"/>
-    <soundstransition crossfade="1" transitiontime="2" enabled="1"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control contextfullscreen="0" rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" dblclickfullscreen="0" simulatemass="1" invertwheel="0" contextprojections="0" hideabout="0" lockedmouse="0" sensitivity="8" lockedkeyboard="0" lockedwheel="0" speedwheel="1"/>
-  </panorama>
+<tour apprev="15983" appversion="5.2.2" start="node1">
   <panorama id="node1">
     <input leveltilesize="510" levelbiashidpi="0.400" levelingpitch="0" width="512" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" height="512" levelingroll="0" levelbias="0.400">
       <level preload="0" width="512" predecode="0" height="512"/>
@@ -75,6 +44,37 @@
       </video>
       <lensflare type="3" alpha="80" blinding="50" color="0xffffff" id="Lensflare01" tilt="8.550000000000001" pan="-10.8"/>
     </media>
+    <transition zoomoutpause="1" zoomfov="20" zoomin="2" type="crossdissolve" zoomspeed="2" zoomout="4" blendcolor="0x000000" blendtime="1" enabled="1" softedge="0"/>
+    <soundstransition crossfade="1" transitiontime="2" enabled="1"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0"/>
+    <control contextfullscreen="0" rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" dblclickfullscreen="0" simulatemass="1" invertwheel="0" contextprojections="0" hideabout="0" lockedmouse="0" sensitivity="8" lockedkeyboard="0" lockedwheel="0" speedwheel="1"/>
+  </panorama>
+  <panorama id="node2">
+    <input leveltilesize="510" levelbiashidpi="0.400" levelingpitch="0" width="1704" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" height="1704" levelingroll="0" levelbias="0.400">
+      <level preload="0" width="1704" predecode="0" height="1704"/>
+      <level preload="0" width="852" predecode="0" height="852"/>
+      <level preload="1" width="426" predecode="1" height="426"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="124.184">
+      <start tilt="0" pan="0" fov="70" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-34.8727" pan="-180" fov="5"/>
+      <max fovfisheye="360" tilt="34.8727" pan="180" fov="120" fovstereographic="270"/>
+    </view>
+    <userdata copyright="" longitude="4.893581" tags="sliki" description="" info="" title="" datetime="11/26/2017 2:40 PM" comment="" source="" latitude="52.367286" author="" customnodeid=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label borderradius="1" wordwrap="1" border="1" background="1" borderalpha="1" width="180" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" enabled="1" height="20" textalpha="1" backgroundalpha="1"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node1}" description="" id="Point01" tilt="0" pan="-16.5685" title="" skinid="ht_node" target="$fwd"/>
+      <hotspot url="{node3}" description="" id="Point02" tilt="0" pan="-0.418504" title="" skinid="ht_node" target="$fwd"/>
+      <hotspot url="{node4}" description="" id="Point03" tilt="0" pan="-0.416934" title="" skinid="ht_node" target="$fwd"/>
+      <hotspot url="{node5}" description="" id="Point04" tilt="0" pan="298.014" title="" skinid="ht_node" target="$fwd"/>
+      <hotspot url="{node6}" description="" id="Point05" tilt="0" pan="298.014" title="" skinid="ht_node" target="$fwd"/>
+      <hotspot url="{node1}" description="" id="Point06" tilt="12.73" pan="21.08" title="muzejj" skinid="ht_node" target="-34.2/-7.3/70.0"/>
+    </hotspots>
+    <media/>
     <transition zoomoutpause="1" zoomfov="20" zoomin="2" type="crossdissolve" zoomspeed="2" zoomout="4" blendcolor="0x000000" blendtime="1" enabled="1" softedge="0"/>
     <soundstransition crossfade="1" transitiontime="2" enabled="1"/>
     <flyintransition speed="2.00" enabled="1"/>

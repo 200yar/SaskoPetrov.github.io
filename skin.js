@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 5.2.2/15983
 // Filename: silhouette_autohide.ggsk
-// Generated Tue Mar 6 19:36:52 2018
+// Generated Tue Mar 6 19:46:37 2018
 
 function pano2vrSkin(player,base) {
 	var ggSkinVars = [];
